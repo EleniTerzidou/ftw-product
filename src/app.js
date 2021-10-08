@@ -21,7 +21,7 @@ import config from './config';
 
 // Flex template application uses English translations as default.
 import defaultMessages from './translations/gr.json';
-import 'moment/locale/gr';
+
 // If you want to change the language, change the imports to match the wanted locale:
 //   1) Change the language in the config.js file!
 //   2) Import correct locale rules for Moment library
