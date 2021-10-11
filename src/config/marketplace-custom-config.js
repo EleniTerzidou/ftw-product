@@ -36,7 +36,7 @@
 export const filters = [
   {
     id: 'category',
-    label: 'Category',
+    label: 'Κατηγορία',
     type: 'SelectSingleFilter',
     group: 'primary',
     queryParamNames: ['pub_category'],
@@ -49,9 +49,9 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'men', label: 'Men' },
-        { key: 'women', label: 'Women' },
-        { key: 'kids', label: 'Kids' },
+        { key: 'men', label: 'Αντρικά' },
+        { key: 'women', label: 'Γυναικία' },
+        { key: 'kids', label: 'Παιδικά' },
       ],
     },
   },
