@@ -56,6 +56,29 @@ export const filters = [
     },
   },
   {
+    id: 'sizing',
+    label: 'Μέγεθος',
+    type: 'SelectMultipleFilter',
+    group: 'secondary',
+    queryParamNames: ['pub_sizing'],
+    config: {
+      // Schema type is enum for SelectSingleFilter
+      schemaType: 'enum',
+      options: [
+        { key: 'xxs', label: 'XXS/32' },
+        { key: 'xs', label: 'XS/34' },
+        { key: 's', label: 'S/36' },
+        { key: 'm', label: 'M/38' },
+        { key: 'l', label: 'L/40' },
+        { key: 'xl', label: 'XL/42' },
+        { key: 'xxl', label: 'XXL/44' },
+        { key: 'xxxl', label: 'XXXL/46' },
+        { key: 'xxxxl', label: 'XXXX/48' },
+        { key: 'na', label: 'αξεσουάρ' },
+      ],
+    },
+  },
+  {
     id: 'size',
     label: 'Είδος',
     type: 'SelectMultipleFilter',
