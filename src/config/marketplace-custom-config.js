@@ -119,7 +119,7 @@ export const filters = [
   },
   {
     id: 'price',
-    label: 'Price',
+    label: 'Τιμή',
     type: 'PriceFilter',
     group: 'primary',
     // Note: PriceFilter is fixed filter,
@@ -135,7 +135,7 @@ export const filters = [
   },
   {
     id: 'keyword',
-    label: 'Keyword',
+    label: 'Λέξη-κλειδί',
     type: 'KeywordFilter',
     group: 'primary',
     // Note: KeywordFilter is fixed filter,
@@ -202,10 +202,10 @@ export const sortConfig = {
   conflictingFilters: [],
 
   options: [
-    { key: 'createdAt', label: 'Newest' },
-    { key: '-createdAt', label: 'Oldest' },
-    { key: '-price', label: 'Lowest price' },
-    { key: 'price', label: 'Highest price' },
+    { key: 'createdAt', label: 'Νεότερα' },
+    { key: '-createdAt', label: 'Παλαιότερα' },
+    { key: '-price', label: 'Χαμηλότερη τιμή' },
+    { key: 'price', label: 'Υψηλότερη τιμή' },
 
     // The relevance is only used for keyword search, but the
     // parameter isn't sent to the Marketplace API. The key is purely
