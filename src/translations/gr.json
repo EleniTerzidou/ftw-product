@@ -244,7 +244,7 @@
   "EditListingPricingForm.stockPlaceholder": "How many items do you have?",
   "EditListingPricingForm.stockUpdateFailed": "Whoops, something went wrong with the stock update. Please refresh the page and try again.",
   "EditListingPricingForm.updateFailed": "Failed to update listing. Please try again.",
-  "EditListingPricingPanel.createListingTitle": "Pricing & Stock",
+  "EditListingPricingPanel.createListingTitle": "Τιμή & Απόθεμα",
   "EditListingPricingPanel.listingPriceCurrencyInvalid": "The listing currency is different from the marketplace currency. You cannot edit the price.",
   "EditListingPricingPanel.title": "Pricing & Stock of {listingTitle}",
   "EditListingWizard.payoutModalInfo": "Almost done! In order to send you money, we need to know a bit more about you. Next, we will guide you through verifying your account. The details can also be edited from the Account Settings page on the Payout details tab. ",
