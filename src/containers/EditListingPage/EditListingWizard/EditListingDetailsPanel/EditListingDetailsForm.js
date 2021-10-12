@@ -137,6 +137,22 @@ const EditListingDetailsFormComponent = props => (
         })
       );
 
+const sizingConfig = findConfigForSelectFilter('sizing', filterConfig);
+      const sizingSchemaType = sizingConfig ? sizingConfig.schemaType : null;
+      const sizings = sizingConfig && sizingConfig.options ? sizingConfig.options : [];
+      const sizingLabel = intl.formatMessage({
+        id: 'EditListingDetailsForm.sizingLabel',
+      });
+      const sizingPlaceholder = intl.formatMessage({
+        id: 'EditListingDetailsForm.sizingPlaceholder',
+      });
+
+      const sizingRequired = required(
+        intl.formatMessage({
+          id: 'EditListingDetailsForm.sizingRequired',
+        })
+      );
+
       return (
         <Form className={classes} onSubmit={handleSubmit}>
           {errorMessageCreateListingDraft}
@@ -192,6 +208,15 @@ const EditListingDetailsFormComponent = props => (
             schemaType={brandSchemaType}
           />
 
+              <CustomFieldEnum
+            id="sizing"
+            name="sizing"
+            options={sizings}
+            label={sizingLabel}
+            placeholder={sizingPlaceholder}
+            validate={sizingRequired}
+            schemaType={sizingSchemaType}
+          />
           <Button
             className={css.submitButton}
             type="submit"
