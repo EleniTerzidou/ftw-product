@@ -90,7 +90,7 @@ export const EditListingPricingFormComponent = props => (
           ) : null}
           <FieldCurrencyInput
             id="price"
-            name="price"
+            name="Τιμή"
             className={css.input}
             autoFocus={autoFocus}
             label={intl.formatMessage({ id: 'EditListingPricingForm.pricePerProduct' })}
@@ -102,7 +102,7 @@ export const EditListingPricingFormComponent = props => (
           <FieldTextInput
             className={css.input}
             id="stock"
-            name="stock"
+            name="Απόθεμα"
             label={intl.formatMessage({ id: 'EditListingPricingForm.stockLabel' })}
             placeholder={intl.formatMessage({ id: 'EditListingPricingForm.stockPlaceholder' })}
             type="number"
