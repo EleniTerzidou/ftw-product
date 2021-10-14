@@ -154,20 +154,7 @@ const EditListingWizardTab = props => {
         />
       );
     }
-    case DELIVERY: {
-      const submitButtonTranslationKey = isNewListingFlow
-        ? 'EditListingWizard.saveNewDelivery'
-        : 'EditListingWizard.saveEditDelivery';
-      return (
-        <EditListingDeliveryPanel
-          {...panelProps(DELIVERY)}
-          submitButtonText={intl.formatMessage({ id: submitButtonTranslationKey })}
-          onSubmit={values => {
-            onCompleteEditListingWizardTab(tab, values);
-          }}
-        />
-      );
-    }
+    
     case PRICING: {
       const submitButtonTranslationKey = isNewListingFlow
         ? 'EditListingWizard.saveNewPricing'
