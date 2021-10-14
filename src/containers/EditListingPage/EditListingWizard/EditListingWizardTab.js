@@ -21,12 +21,11 @@ import EditListingPricingPanel from './EditListingPricingPanel/EditListingPricin
 import css from './EditListingWizard.module.css';
 
 export const DETAILS = 'details';
-export const DELIVERY = 'delivery';
 export const PRICING = 'pricing';
 export const PHOTOS = 'photos';
 
 // EditListingWizardTab component supports these tabs
-export const SUPPORTED_TABS = [DETAILS, DELIVERY, PRICING, PHOTOS];
+export const SUPPORTED_TABS = [DETAILS, PRICING, PHOTOS];
 
 const pathParamsToNextTab = (params, tab, marketplaceTabs) => {
   const nextTabIndex = marketplaceTabs.findIndex(s => s === tab) + 1;
