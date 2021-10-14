@@ -14,7 +14,7 @@ import { createResourceLocatorString } from '../../../util/routes';
 
 // Import modules from this directory
 import EditListingDetailsPanel from './EditListingDetailsPanel/EditListingDetailsPanel';
-import EditListingDeliveryPanel from './EditListingDeliveryPanel/EditListingDeliveryPanel';
+
 import EditListingPhotosPanel from './EditListingPhotosPanel/EditListingPhotosPanel';
 import EditListingPricingPanel from './EditListingPricingPanel/EditListingPricingPanel';
 
