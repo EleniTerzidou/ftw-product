@@ -49,7 +49,7 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'men', label: 'Αντρικά' },
+        { key: 'men', label: 'Ρούχα' },
         { key: 'women', label: 'Γυναικία' },
         { key: 'kids', label: 'Παιδικά' },
       ],
