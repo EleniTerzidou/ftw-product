@@ -105,6 +105,8 @@ export const filters = [
         { key: '7', label: 'Ολόσωμες φόρμες' },
         { key: '8', label: 'Πουλόβερ' },
         { key: '9', label: 'T-shirt' },
+        { key: '10', label: 'Αθλητικά' },
+        { key: '11', label: 'Μποτάκια' },
       ],
     },
   },
