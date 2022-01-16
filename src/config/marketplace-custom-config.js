@@ -104,7 +104,7 @@ export const filters = [
         { key: '6', label: 'Ζακέτες' },
         { key: '7', label: 'Ολόσωμες φόρμες' },
         { key: '8', label: 'Πουλόβερ' },
-        { key: '9', label: 'T-shirt },
+        { key: '9', label: 'T-shirt' },
       ],
     },
   },
