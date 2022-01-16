@@ -49,9 +49,9 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'men', label: 'Ρούχα' },
-        { key: 'women', label: 'Γυναικία' },
-        { key: 'kids', label: 'Παιδικά' },
+        { key: 'clothes', label: 'Ρούχα' },
+        { key: 'shoes', label: 'Παπούτσια' },
+        { key: 'accessories', label: 'Αξεσουάρ' },
       ],
     },
   },
@@ -79,7 +79,7 @@ export const filters = [
     },
   },
   {
-    id: 'size',
+    id: 'product',
     label: 'Είδος',
     type: 'SelectMultipleFilter',
     group: 'primary',
@@ -96,9 +96,15 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: '1', label: 'Ρούχα' },
-        { key: '2', label: 'Παπούτσια' },
-        { key: '3', label: 'Αξεσουάρ' },
+        { key: '1', label: 'Πανωφόρια' },
+        { key: '2', label: 'Μπλούζες' },
+        { key: '3', label: 'Φορέματα' },
+        { key: '4', label: 'Φούστες' },
+        { key: '5', label: 'Παντελόνια' },
+        { key: '6', label: 'Ζακέτες' },
+        { key: '7', label: 'Ολόσωμες φόρμες' },
+        { key: '8', label: 'Πουλόβερ' },
+        { key: '9', label: 'T-shirt },
        
       ],
     },
